@@ -1,0 +1,99 @@
+/*!
+ * My CSS
+ * Copyright 2020
+ * Licensed under MIT
+ * Versão 1.0
+ */
+
+body{  height:0px;
+            width: 100%;
+            padding: 0px;
+    
+}
+
+.bg-azul-ibiapaba{
+    background-color: #002441;
+}
+
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+                0 4px 8px 0 rgba(0,0,0,.05);
+            
+}
+
+.container{
+    
+}
+
+.my-font{
+    font-family: 'Roboto', sans-serif;
+        
+}
+
+.my-font-titulo {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900;
+}
+
+
+
+
+.fundo-2{
+    background-image:url(../images/fundo-2.png);    
+    background-repeat:no-repeat;
+    background-size: 100%; 
+    overflow: hidden;
+    max-width: 100em;   
+    height: 559px;
+    margin-bottom: 20px;
+   
+}
+
+.msg-footer{
+    background-color:#ededed;
+    background-size: cover;
+    padding: 50px;
+}
+
+
+.fundao{
+    background-color:#002441;
+    background-size: cover;
+    padding:5px;
+}
+
+@media only screen and (max-width: 1000px) {
+.fundo-2{
+    background-image:url(../images/fundo-2.png);  
+    background-repeat:repeat-x top center;
+    background-size: 100%; 
+    overflow: hidden;
+    height: 400px;
+    float:left;     
+}
+    
+.bg-azul-ibiapaba{
+    background-color: red;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+.fundo-2{
+    background-image:url(../images/fundo-2.png);  
+    background-repeat:repeat-x top center;
+    background-size: 100%; 
+    overflow: hidden;
+    height: 0px;
+    float:left; 
+    margin-bottom: 8em;
+
+    
+}
+    
+    .bg-azul-ibiapaba{
+    background-color: gray;
+}
+
+}
+
